@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56CD93A2F2191BA94E811E45 /* Pods_dicebeyond_mobile_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98D1E3C2581EE9A892BF612 /* Pods_dicebeyond_mobile_ios.framework */; };
+		6D4C02246506CA9EEBC6687B /* Pods_dicebeyond_mobile_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FEA03A6B1177B6CDFD1972 /* Pods_dicebeyond_mobile_iosUITests.framework */; };
+		9791506EEECA05DCEA4E56F9 /* Pods_dicebeyond_mobile_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A817F3FE76257A49FA2C713 /* Pods_dicebeyond_mobile_iosTests.framework */; };
 		EE3B93492009A19A00DE4FF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B93482009A19A00DE4FF4 /* AppDelegate.swift */; };
 		EE3B934B2009A19A00DE4FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B934A2009A19A00DE4FF4 /* ViewController.swift */; };
 		EE3B934E2009A19A00DE4FF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3B934C2009A19A00DE4FF4 /* Main.storyboard */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2401E384CE275A4841256B /* Pods-dicebeyond-mobile-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-iosTests/Pods-dicebeyond-mobile-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E9F947DC62131CF8167BA78 /* Pods-dicebeyond-mobile-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-iosTests/Pods-dicebeyond-mobile-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A817F3FE76257A49FA2C713 /* Pods_dicebeyond_mobile_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicebeyond_mobile_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB8D43ED5D2FFA5DCDC9732 /* Pods-dicebeyond-mobile-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-iosUITests/Pods-dicebeyond-mobile-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78B6F967DAD35B14C8234A34 /* Pods-dicebeyond-mobile-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-ios/Pods-dicebeyond-mobile-ios.release.xcconfig"; sourceTree = "<group>"; };
+		86B0BF1F965BED536B150772 /* Pods-dicebeyond-mobile-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-ios/Pods-dicebeyond-mobile-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A0FEA03A6B1177B6CDFD1972 /* Pods_dicebeyond_mobile_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicebeyond_mobile_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C033EE3600ADEFCE99AEE7 /* Pods-dicebeyond-mobile-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicebeyond-mobile-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dicebeyond-mobile-iosUITests/Pods-dicebeyond-mobile-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D98D1E3C2581EE9A892BF612 /* Pods_dicebeyond_mobile_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicebeyond_mobile_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3B93452009A19A00DE4FF4 /* dicebeyond-mobile-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dicebeyond-mobile-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3B93482009A19A00DE4FF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE3B934A2009A19A00DE4FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56CD93A2F2191BA94E811E45 /* Pods_dicebeyond_mobile_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9791506EEECA05DCEA4E56F9 /* Pods_dicebeyond_mobile_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4C02246506CA9EEBC6687B /* Pods_dicebeyond_mobile_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA8BB9D540383D18FAE5ECC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86B0BF1F965BED536B150772 /* Pods-dicebeyond-mobile-ios.debug.xcconfig */,
+				78B6F967DAD35B14C8234A34 /* Pods-dicebeyond-mobile-ios.release.xcconfig */,
+				1E9F947DC62131CF8167BA78 /* Pods-dicebeyond-mobile-iosTests.debug.xcconfig */,
+				0D2401E384CE275A4841256B /* Pods-dicebeyond-mobile-iosTests.release.xcconfig */,
+				C9C033EE3600ADEFCE99AEE7 /* Pods-dicebeyond-mobile-iosUITests.debug.xcconfig */,
+				6AB8D43ED5D2FFA5DCDC9732 /* Pods-dicebeyond-mobile-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC19E15EB5A9775EE6EA5078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D98D1E3C2581EE9A892BF612 /* Pods_dicebeyond_mobile_ios.framework */,
+				2A817F3FE76257A49FA2C713 /* Pods_dicebeyond_mobile_iosTests.framework */,
+				A0FEA03A6B1177B6CDFD1972 /* Pods_dicebeyond_mobile_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE3B933C2009A19900DE4FF4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EE3B935C2009A19A00DE4FF4 /* dicebeyond-mobile-iosTests */,
 				EE3B93672009A19A00DE4FF4 /* dicebeyond-mobile-iosUITests */,
 				EE3B93462009A19A00DE4FF4 /* Products */,
+				BA8BB9D540383D18FAE5ECC7 /* Pods */,
+				EC19E15EB5A9775EE6EA5078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE3B936D2009A19A00DE4FF4 /* Build configuration list for PBXNativeTarget "dicebeyond-mobile-ios" */;
 			buildPhases = (
+				0F498CCB3CD7E68F9BC08D07 /* [CP] Check Pods Manifest.lock */,
 				EE3B93412009A19900DE4FF4 /* Sources */,
 				EE3B93422009A19900DE4FF4 /* Frameworks */,
 				EE3B93432009A19900DE4FF4 /* Resources */,
+				94B78252D424165612C3294A /* [CP] Embed Pods Frameworks */,
+				9C1BAD474F3E9B47F19E4C68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE3B93702009A19A00DE4FF4 /* Build configuration list for PBXNativeTarget "dicebeyond-mobile-iosTests" */;
 			buildPhases = (
+				2EF15498DCD62BA65115F67A /* [CP] Check Pods Manifest.lock */,
 				EE3B93552009A19A00DE4FF4 /* Sources */,
 				EE3B93562009A19A00DE4FF4 /* Frameworks */,
 				EE3B93572009A19A00DE4FF4 /* Resources */,
+				C660F1983405527A3C5E9A2B /* [CP] Embed Pods Frameworks */,
+				FFF0E07E862026BA957DF65E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE3B93732009A19A00DE4FF4 /* Build configuration list for PBXNativeTarget "dicebeyond-mobile-iosUITests" */;
 			buildPhases = (
+				788E256A60E77F7A8B255813 /* [CP] Check Pods Manifest.lock */,
 				EE3B93602009A19A00DE4FF4 /* Sources */,
 				EE3B93612009A19A00DE4FF4 /* Frameworks */,
 				EE3B93622009A19A00DE4FF4 /* Resources */,
+				A078F7F147ACC99842F34A7E /* [CP] Embed Pods Frameworks */,
+				9CB7E0ED4C0E0C44BB533F68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F498CCB3CD7E68F9BC08D07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicebeyond-mobile-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF15498DCD62BA65115F67A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicebeyond-mobile-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788E256A60E77F7A8B255813 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicebeyond-mobile-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B78252D424165612C3294A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-ios/Pods-dicebeyond-mobile-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C1BAD474F3E9B47F19E4C68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-ios/Pods-dicebeyond-mobile-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB7E0ED4C0E0C44BB533F68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-iosUITests/Pods-dicebeyond-mobile-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A078F7F147ACC99842F34A7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-iosUITests/Pods-dicebeyond-mobile-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C660F1983405527A3C5E9A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-iosTests/Pods-dicebeyond-mobile-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF0E07E862026BA957DF65E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dicebeyond-mobile-iosTests/Pods-dicebeyond-mobile-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE3B93412009A19900DE4FF4 /* Sources */ = {
@@ -424,6 +620,7 @@
 		};
 		EE3B936E2009A19A00DE4FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B0BF1F965BED536B150772 /* Pods-dicebeyond-mobile-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +636,7 @@
 		};
 		EE3B936F2009A19A00DE4FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B6F967DAD35B14C8234A34 /* Pods-dicebeyond-mobile-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +652,7 @@
 		};
 		EE3B93712009A19A00DE4FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9F947DC62131CF8167BA78 /* Pods-dicebeyond-mobile-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +670,7 @@
 		};
 		EE3B93722009A19A00DE4FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2401E384CE275A4841256B /* Pods-dicebeyond-mobile-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +688,7 @@
 		};
 		EE3B93742009A19A00DE4FF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C033EE3600ADEFCE99AEE7 /* Pods-dicebeyond-mobile-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +705,7 @@
 		};
 		EE3B93752009A19A00DE4FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB8D43ED5D2FFA5DCDC9732 /* Pods-dicebeyond-mobile-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
